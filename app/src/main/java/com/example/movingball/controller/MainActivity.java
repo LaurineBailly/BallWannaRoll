@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     // onResume is called when the activity is ready
     @Override
     protected void onResume() {
-        super.onResume();
+        super.onResume(); int i=0; 
 
         // Setting a callback that notifies clients when the progress level has been changed
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
